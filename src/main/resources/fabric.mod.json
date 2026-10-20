@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ladder-plant",
+  "version": "1.0.0",
+  "name": "Ladder Plant",
+  "description": "Registers the Ladder plant: it costs 0 sun, may be planted only on a Pumpkin or a Tall-nut, and puts the game's own ladder grid item on that square so zombies climb over the plant instead of eating it.",
+  "authors": [
+    "Enaium"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "cn.enaium.fabricpvz.ladder.LadderPlantMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "fabric-language-kotlin": ">=1.14.2",
+    "pvz-portable": "*",
+    "api-base": ">=1.2.2",
+    "api-plant": ">=1.2.2"
+  }
+}
