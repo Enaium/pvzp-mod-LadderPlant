@@ -50,21 +50,21 @@ so it first checks `Board.getLadderAt` and never stacks two ladders on one squar
 
 ## Prerequisites
 
-This mod runs on [PvZ-Portable](https://github.com/FabricPvZ/pvz-portable) and needs these mods next
-to it:
+This mod runs on [PvZ-Portable](https://github.com/FabricPvZ/pvz-portable) and needs one more mod
+next to it:
 
 - **PvZ-Portable** - the engine (the game itself): <https://github.com/FabricPvZ/pvz-portable>.
 - **fabric-language-kotlin** - this mod is written in Kotlin and carries no Kotlin runtime of its
   own. Download: [Modrinth](https://modrinth.com/mod/fabric-language-kotlin) ·
   [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin) ·
   [Fabric's maven](https://maven.fabricmc.net/net/fabricmc/fabric-language-kotlin/).
-- **fabric-api** (this workspace's API, which brings `api-plant` and `api-base`) - download from the
-  [GitHub releases](https://github.com/FabricPvZ/fabric-api/releases).
+
+The workspace's API (which brings `api-plant` and `api-base`) is carried **inside this mod's jar**.
 
 ## Installing
 
 1. Install [PvZ-Portable](https://github.com/FabricPvZ/pvz-portable) (it brings Fabric Loader).
-2. Put `fabric-language-kotlin` and `fabric-api` into the game's `mods/` directory.
+2. Put `fabric-language-kotlin` into the game's `mods/` directory.
 3. Put `ladder-plant-mod-1.0.0.jar` into the same `mods/` directory.
 4. Start the game, pick a level, and drag the **Ladder** seed onto a Pumpkin or a Tall-nut.
 
